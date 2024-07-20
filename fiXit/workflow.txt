@@ -1,0 +1,48 @@
+sentiment-analysis-app/
+  ├── frontend/
+  │   ├── app.py  # Streamlit UI
+  │   └── requirements.txt
+  ├── backend/
+  │   ├── app.py  # Flask backend
+  │   ├── sentiment.py  # Sentiment analysis logic  
+  │   └── requirements.txt
+  ├── .gitignore
+  ├── README.md
+  └── vercel.json
+
+
+
+
+
+
+
+
+
+
+sentiment-analysis-app2/
+  ├── frontend/
+  │   ├── app/
+  │   │   ├── __init__.py
+  │   │   ├── main.py  # Streamlit UI
+  │   ├── tests/
+  │   │   └── test_frontend.py
+  │   └── requirements.txt
+  ├── backend/
+  │   ├── app/
+  │   │   ├── __init__.py
+  │   │   ├── main.py  # Flask backend
+  │   │   ├── models/
+  │   │   │   └── sentiment_model.py
+  │   │   ├── routes/
+  │   │   │   └── sentiment_routes.py
+  │   │   ├── services/
+  │   │   │   └── sentiment_service.py
+  │   │   └── utils/
+  │   │       └── file_utils.py
+  │   ├── tests/
+  │   │   └── test_backend.py
+  │   └── requirements.txt
+  ├── .gitignore
+  ├── README.md
+  ├── requirements.txt
+  └── vercel.json
